@@ -66,6 +66,10 @@ class Component extends Unit {
     this.pageLifetimes[name].call(this, ...values)
   }
 
+  _emitPageLifetimes (name, ...values) {
+    this.pageLifetimes[name].call(this, ...values)
+  }
+
   hasBehavior () {}
   triggerEvent () {}
   createSelectorQuery () {}

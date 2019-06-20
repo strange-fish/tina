@@ -12,6 +12,7 @@ const MINA_COMPONENT_HOOKS = ['created', 'attached', 'ready', 'moved', 'detached
 const MINA_COMPONENT_PAGE_HOOKS = ['show', 'hide', 'resize']
 const MINA_COMPONENT_METHODS = ['setData', 'hasBehavior', 'triggerEvent', 'createSelectorQuery', 'selectComponent', 'selectAllComponents', 'getRelationNodes', 'createIntersectionObserver']
 const MINA_COMPONENT_ATTRIBUTES = ['is', 'id', 'dataset', 'data']
+const MINA_COMPONENT_PAGE_LIFETIME_HOOkS = ['show', 'hide', 'resize']
 
 const ADDON_BEFORE_HOOKS = {}
 const ADDON_OPTIONS = ['mixins', 'compute']
